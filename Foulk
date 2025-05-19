@@ -52,16 +52,36 @@
       padding: 10px 20px;
       border-radius: 10px;
     }
-    .intro {
+    .intro, .about, .services, .contact {
       padding: 40px 20px;
       text-align: center;
       background-color: #ffffff;
     }
-    .intro p {
+    .intro p, .about p, .services p, .contact p {
       font-size: 18px;
       color: #444;
       max-width: 800px;
       margin: auto;
+    }
+    .services-list {
+      max-width: 800px;
+      margin: 20px auto;
+      text-align: left;
+    }
+    .services-list h3 {
+      color: #2d6a4f;
+      margin-top: 20px;
+    }
+    .services-list ul {
+      padding-left: 20px;
+    }
+    .services-list ul li {
+      margin-bottom: 10px;
+    }
+    .contact-info {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #2d6a4f;
     }
     footer {
       background-color: #e6e6e6;
@@ -94,10 +114,67 @@
     </p>
   </section>
 
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Our team is made up of dedicated, trustworthy individuals who take pride in providing quality service with a personal touch. We're your neighbors, and we’re here to help. Stay tuned — we’ll be adding team bios and photos soon!
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <h3>Lawn & Outdoor</h3>
+      <ul>
+        <li>Mowing lawns</li>
+        <li>Raking leaves</li>
+        <li>Watering plants</li>
+        <li>Shoveling dirt</li>
+        <li>Moving bricks and slabs</li>
+        <li>Removing grass</li>
+        <li>Weeding planters and flower beds</li>
+      </ul>
+
+      <h3>Pet Care</h3>
+      <ul>
+        <li>Walking dogs</li>
+        <li>Feeding and watering dogs</li>
+        <li>Pet sitting</li>
+      </ul>
+
+      <h3>House & Errands</h3>
+      <ul>
+        <li>Chore/house help</li>
+        <li>Cleaning garages</li>
+        <li>Cleaning attics</li>
+        <li>Grocery orders and delivery</li>
+        <li>Running errands (mail, prescription pickup)</li>
+        <li>House sitting</li>
+      </ul>
+
+      <h3>Other Services</h3>
+      <ul>
+        <li>Car detailing</li>
+        <li>Trash and recycling bin cleaning</li>
+        <li>Help with moving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Have questions or ready to schedule a service? We’d love to hear from you!
+    </p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:marcusfoulk@gmail.com">marcusfoulk@gmail.com</a></p>
+      <p>Phone: <a href="tel:8433382450">843-338-2450</a></p>
+    </div>
+  </section>
+
   <footer>
     Contact us: marcusfoulk@gmail.com | 843-338-2450<br />
     &copy; 2025 Neighborhood Services of Bluffton
   </footer>
 </body>
 </html>
-
